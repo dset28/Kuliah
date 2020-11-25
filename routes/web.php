@@ -14,11 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('Hello', function(){
-    return view('Hello');
+    return view('index');
 });
 
 Auth::routes();
